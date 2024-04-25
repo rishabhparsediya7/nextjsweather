@@ -30,4 +30,61 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  .container {
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr 1.4fr;
+    grid-template-rows: 0.2fr 1fr;
+    gap: 20px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "logo logo searchbar"
+      "nav city-detail weather-advisor";
+  }
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .searchbar {
+    grid-area: searchbar;
+  }
+
+  .nav {
+    grid-area: nav;
+  }
+
+  .city-detail {
+    grid-area: city-detail;
+  }
+
+  .weather-advisor {
+    grid-area: weather-advisor;
+  }
+
+  .custom-gradient {
+    background: hsla(220, 5%, 11%, 1);
+
+    background: linear-gradient(
+      270deg,
+      hsla(220, 5%, 11%, 1) 0%,
+      hsla(220, 7%, 8%, 1) 50%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+
+    background: -moz-linear-gradient(
+      270deg,
+      hsla(220, 5%, 11%, 1) 0%,
+      hsla(220, 7%, 8%, 1) 50%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+
+    background: -webkit-linear-gradient(
+      270deg,
+      hsla(220, 5%, 11%, 1) 0%,
+      hsla(220, 7%, 8%, 1) 50%,
+      hsla(0, 0%, 0%, 1) 100%
+    );
+
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#1A1B1D", endColorstr="#131416", GradientType=1 );
+  }
 }
