@@ -1,6 +1,7 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## The app will look like this when you hit the url 
+## The app will look like this when you hit the url [Weather App](https://nextjs-weather-rishabh.vercel.app/)
+
 
 ![Image Description](./public/digitapaani.PNG)
 
