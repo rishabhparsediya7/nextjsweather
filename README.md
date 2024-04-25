@@ -5,6 +5,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ![Image Description](./public/digitapaani.PNG)
 
+```
+
+1. We can get the weather data by entering the city name and clicking the maginifier icon on the top right
+2. In the bottom right, there are three live weather data coming from the api for [New York, London, Tokyo]
+
+```
+
 ## Getting Started
 
 First, run the development server:
