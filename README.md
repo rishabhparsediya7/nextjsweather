@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## The app will look like this when you hit the url 
 
-![Image Description](/digitalpaani.PNG)
+![Image Description](/digitapaani.PNG)
 
 ## Getting Started
 
