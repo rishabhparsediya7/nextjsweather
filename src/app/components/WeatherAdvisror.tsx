@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 interface CityWeather {
     temp: number;
@@ -41,7 +41,7 @@ export default function WeatherAdvisor() {
         const cityDetailsArray = await Promise.all(promises);
         setCityDetails(cityDetailsArray);
     };
-    useState(() => {
+    useEffect(() => {
         const initialCities: string[] = ['New York', 'London', 'Tokyo'];
         getWeatherData(initialCities);
     }, []);
